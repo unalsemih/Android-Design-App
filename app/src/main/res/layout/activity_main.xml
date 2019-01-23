@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="14.2"
+    android:background="@android:color/white"
+    tools:context="com.example.semih.tasarm1.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:background="#e10514"
+        android:weightSum="6"
+        >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+            android:text="     MH"
+            android:textColor="@android:color/white"
+            android:background="#e10514"
+            android:gravity="left|center_vertical"
+
+            />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/z"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/image"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+
+                android:gravity="right|center_vertical"
+
+                android:text="Ziraat"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:layout_toRightOf="@+id/image"
+                android:id="@+id/ziraat"
+                />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+           android:gravity="center|left"
+
+
+
+            android:text=" Bankası"
+            android:textSize="18sp"
+                android:layout_toRightOf="@+id/ziraat"
+            android:textColor="@android:color/white"
+            />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#e10514"
+
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:text="En      "
+
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/girisLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="#e8e8e8"
+        android:orientation="vertical"
+        android:weightSum="10"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:src="@drawable/mobile"
+            android:layout_weight="5.5"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Mobil Bankacılık"
+            android:textColor="#e10514"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.5"
+            android:textSize="22sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_margin="1dp"
+            android:text="Giriş"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:textColor="#e10514"
+            android:background="@drawable/style"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:weightSum="2"
+        >
+        <!-- #e8e8e8  renk kodu gri-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="0.5dp"
+            android:background="#e10514"
+            android:weightSum="4"
+            android:paddingBottom="5dp"
+            >
+           <ImageView
+               android:layout_width="wrap_content"
+               android:padding="1dp"
+               android:layout_height="0dp"
+               android:src="@drawable/qrkod"
+               android:layout_weight="3"
+               android:layout_gravity="center_horizontal"
+
+               />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="QR Kod İşlemleri"
+
+                android:gravity="center"
+                android:textColor="@android:color/white"
+
+                />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginLeft="0.5dp"
+                android:background="#e10514"
+                android:weightSum="4"
+                android:paddingBottom="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:padding="2dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/tick"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Ziraat Onay"
+
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+
+                    />
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_marginBottom="1dp"
+
+
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="0.5dp"
+            android:background="#e10514"
+            android:weightSum="4"
+            android:paddingBottom="5dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:src="@drawable/gps"
+               android:padding="6dp"
+                android:layout_weight="3"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="En Yakın Ziraat"
+
+                android:gravity="center"
+                android:textColor="@android:color/white"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="0.5dp"
+            android:background="#e10514"
+            android:weightSum="4"
+            android:paddingBottom="5dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/calculator"
+                android:layout_gravity="center_horizontal"
+                android:padding="6dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Hesaplama Araçları"
+
+                android:gravity="center"
+                android:textColor="@android:color/white"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginBottom="1dp"
+
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="0.5dp"
+            android:background="#e10514"
+            android:weightSum="4"
+            android:paddingBottom="5dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:src="@drawable/graphic"
+                android:layout_weight="3"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Finansal Veriler"
+
+                android:gravity="center"
+                android:textColor="@android:color/white"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="0.5dp"
+            android:background="#e10514"
+            android:weightSum="4"
+            android:paddingBottom="5dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/yuzde"
+                android:padding="2dp"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Kampanyalar"
+
+                android:gravity="center"
+                android:textColor="@android:color/white"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+
+
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="0.5dp"
+            android:background="#e10514"
+            android:weightSum="4"
+            android:paddingBottom="5dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:src="@drawable/basvurular"
+                android:layout_weight="3"
+                android:layout_gravity="center_horizontal"
+                android:padding="6dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Başvurular"
+
+                android:gravity="center"
+                android:textColor="@android:color/white"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="0.5dp"
+            android:background="#e10514"
+            android:weightSum="4"
+            android:paddingBottom="5dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/randevual"
+                android:padding="2dp"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Randevu Al"
+
+                android:gravity="center"
+                android:textColor="@android:color/white"
+
+                />
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
